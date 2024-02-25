@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "C12D90bOizlJ9EXj5hbyy5ZDHcznFKp/9RxkmjjN7sQgKMxstWiLoBS8XCi0ge7x3jYoZvSPG8uoVCTQlNc7Pw==",
+  "dgSpecHash": "a9tUpL0e+oo7qKiAkuXbNLVOS7kRiOUndThzsV58Le7w2hv4lUO9j+sFK1+OhefL4u73eBcJq20pKVjpT5SKjA==",
   "success": true,
-  "projectFilePath": "C:\\Program Files\\GitHub\\LoginSystem Test\\LoginSystem Test.csproj",
+  "projectFilePath": "C:\\Program Files\\GitHub\\LoginSystem\\LoginSystem\\LoginSystem Test.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

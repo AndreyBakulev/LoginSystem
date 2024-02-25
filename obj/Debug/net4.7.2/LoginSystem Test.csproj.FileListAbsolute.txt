@@ -9,3 +9,14 @@ C:\Program Files\GitHub\LoginSystem Test\obj\Debug\net4.7.2\LoginSystem Test.csp
 C:\Program Files\GitHub\LoginSystem Test\obj\Debug\net4.7.2\LoginSystem Test.sourcelink.json
 C:\Program Files\GitHub\LoginSystem Test\obj\Debug\net4.7.2\LoginSystem Test.exe
 C:\Program Files\GitHub\LoginSystem Test\obj\Debug\net4.7.2\LoginSystem Test.pdb
+C:\Program Files\GitHub\LoginSystem\LoginSystem\bin\Debug\net4.7.2\LoginSystem Test.exe.config
+C:\Program Files\GitHub\LoginSystem\LoginSystem\bin\Debug\net4.7.2\LoginSystem Test.exe
+C:\Program Files\GitHub\LoginSystem\LoginSystem\bin\Debug\net4.7.2\LoginSystem Test.pdb
+C:\Program Files\GitHub\LoginSystem\LoginSystem\obj\Debug\net4.7.2\LoginSystem Test.csproj.AssemblyReference.cache
+C:\Program Files\GitHub\LoginSystem\LoginSystem\obj\Debug\net4.7.2\LoginSystem Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Program Files\GitHub\LoginSystem\LoginSystem\obj\Debug\net4.7.2\LoginSystem Test.AssemblyInfoInputs.cache
+C:\Program Files\GitHub\LoginSystem\LoginSystem\obj\Debug\net4.7.2\LoginSystem Test.AssemblyInfo.cs
+C:\Program Files\GitHub\LoginSystem\LoginSystem\obj\Debug\net4.7.2\LoginSystem Test.csproj.CoreCompileInputs.cache
+C:\Program Files\GitHub\LoginSystem\LoginSystem\obj\Debug\net4.7.2\LoginSystem Test.sourcelink.json
+C:\Program Files\GitHub\LoginSystem\LoginSystem\obj\Debug\net4.7.2\LoginSystem Test.exe
+C:\Program Files\GitHub\LoginSystem\LoginSystem\obj\Debug\net4.7.2\LoginSystem Test.pdb
