@@ -32,6 +32,8 @@ namespace LoginSystem_UI
         private void button1_Click(object sender, EventArgs e)
         {
             //logging in
+            ls.usernameBox = usernameBox;
+            ls.passwordBox = passwordBox; 
             ls.login();
         }
 

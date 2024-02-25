@@ -35,6 +35,8 @@ namespace LoginSystem_UI
         string username;
         string password;
         string accountType;
+        int loginAttempts = 0;
+        Boolean loginSuccessful = false;
 
         public byte[] Encrypt(byte[] data)
         {
@@ -137,37 +139,25 @@ namespace LoginSystem_UI
 
         public void login()
         {
-            int loginAttempts = 0;
-            Console.Write("\nYou have Selected to log into an existing account\n");
-            Console.Write("Username: ");
-            string username = Console.ReadLine();
-            Console.Write("Password: ");
-            string password = Console.ReadLine();
+            password = passwordBox.Text;
+            username = usernameBox.Text;
             using (StreamReader bReader = new StreamReader("AccountInfo.txt"))
             {
                 string file = bReader.ReadLine();
-                while (!(file.Contains(password) && file.Contains(username)) && loginAttempts < 3)
+
+                if (!(file.Contains(Encoding.ASCII.GetString(Encrypt(Encoding.ASCII.GetBytes((password + "ihatehank"))))) && file.Contains(username)) && loginAttempts < 3)
                 {
                     loginAttempts++;
-                    Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("Invalid Username or Password. Please try again");
-                    Console.ResetColor();
-                    Console.Write("Username: ");
-                    username = Console.ReadLine();
-                    Console.Write("Password: ");
-                    password = Console.ReadLine();
-                }
-                if (loginAttempts == 3)
+                    MessageBox.Show($"Invalid Username or Password. Please try again. You have attempted {loginAttempts} times.");
+                } else loginSuccessful = true;
+                if (loginAttempts >= 3)
                 {
-                    Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("Too many login attempts. Please try again in an hour");
-                    Console.ResetColor();
+                    MessageBox.Show("Too many login attempts. Please try again in an hour");
+                    Environment.Exit(0);
                 }
-                else
+                if(loginSuccessful)
                 {
-                    Console.ForegroundColor = ConsoleColor.Green;
-                    Console.Write("Login Successful!");
-                    Console.ResetColor();
+                    MessageBox.Show($"Login Successful! Welcome {file.Split(',')[0].Substring(6)}!");
                 }
 
             }
