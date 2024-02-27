@@ -6,6 +6,6 @@ build_property.ApplicationHighDpiMode =
 build_property.ApplicationUseCompatibleTextRendering = 
 build_property.ApplicationVisualStyles = 
 build_property.RootNamespace = LoginSystem_Test
-build_property.ProjectDir = C:\Program Files\GitHub\LoginSystem\LoginSystem\
+build_property.ProjectDir = /Users/macpro/Documents/GitHub/LoginSystem/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

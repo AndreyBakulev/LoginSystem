@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "a9tUpL0e+oo7qKiAkuXbNLVOS7kRiOUndThzsV58Le7w2hv4lUO9j+sFK1+OhefL4u73eBcJq20pKVjpT5SKjA==",
+  "dgSpecHash": "RSMikR0uvsz+Sa9DNs2ZKgY2GYGjRgGnXGX2mZwN+XzBHYVvUN4bFfzYYZLO/JfGM/cTrAnBF8VvYxEeOJxjFw==",
   "success": true,
-  "projectFilePath": "C:\\Program Files\\GitHub\\LoginSystem\\LoginSystem\\LoginSystem Test.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/macpro/Documents/GitHub/LoginSystem/LoginSystem Test.csproj",
+  "expectedPackageFiles": [
+    "/Users/macpro/.nuget/packages/microsoft.netframework.referenceassemblies/1.0.3/microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "/Users/macpro/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.3/microsoft.netframework.referenceassemblies.net472.1.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

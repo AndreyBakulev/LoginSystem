@@ -166,11 +166,23 @@ namespace LoginSystem_UI
 
 
     /*
+
+    LEARN Javascript
     Additions:
-    first, add a login or sign-up system
-    figure out what he means by delimiter
-    add menu based off account type
-    add 3 attempts to password
-    making pass checker update every new key (update the string and check that)
+    Admin menu: removing locks from names
+    wait 1 hour if 3 attempts
+
+    EXTRA STUFF:
+    Forgot my password
+    2FA
+
+    maybe password manager{
+        random passwords
+        read html and autofill passwords from this txt file
+    }
+    MAKE THIS FULL STACK{
+        html and css
+        ask marisa if there are ways to use anything except javascript
+    }
     */
 }
